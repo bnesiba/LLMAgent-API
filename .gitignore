@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/LLMAgentApi
+/DnDBeyondConnector/bin/Debug/net8.0
+/DnDBeyondConnector/obj
+/LLMAgentApi/bin/Debug/net8.0
+/LLMAgentApi/obj
+/OpenAIConnector/bin/Debug/net8.0
+/OpenAIConnector/obj
+/OpenAIRealtimeConnector/bin/Debug/net8.0
+/OpenAIRealtimeConnector/obj/Debug/net8.0
+/OpenAIRealtimeConnector/obj
+/RealtimeAgentApi/bin/Debug/net8.0
+/RealtimeAgentApi/obj
+/RealtimeChatAgentAPI/bin/Debug/net8.0
+/RealtimeChatAgentAPI/obj
+/.vs
+/LLMAgentApi/LLMAgentApi.csproj.user
