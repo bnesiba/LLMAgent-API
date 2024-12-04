@@ -33,6 +33,8 @@ namespace LLMAgentApi
             return ContextChat(newContext)?.Last().content.ToString() ?? string.Empty;
         }
 
+        //Tool Loop Lives Here
+        //recurse until agent decides not to run any tools
         public List<IOpenAIChatMessage>? ContextChat(List<IOpenAIChatMessage> context)
         {
             List<IOpenAIChatMessage> newContext =

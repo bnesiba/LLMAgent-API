@@ -77,7 +77,7 @@ namespace LLMAgentApi.Controllers
                 "You help set up encounters, create statblocks, and generally assist with setting up encounters.\n"
                 +"You use your available tools whenever relevant, and if a request cannot be solved with tools or doesn't need them, you resolve it yourself.\n" +
                 "you response in short, concise, accurate responses. Avoid verbosity unless directed otherwise" );
-            var chatResult = _chatOrchestrator.SessionContextChat(sessionId, $"The user's name is {userName}. \nPlease welcome them and list the tools you have access to");
+            var chatResult = _chatOrchestrator.SessionContextChat(sessionId, $"The user's name is {userName}. \nPlease welcome them and list the external tools you have access to");
             return new WelcomeMessage(sessionId.ToString(), chatResult ?? "");
         }
 
