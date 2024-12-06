@@ -1,4 +1,5 @@
-Simple C# .Net api implementation of a Tool-using-agent. 
+C# .Net api implementation of a Tool-using-agent that can be easily extended/modified for new tasks.
+See LLMAgent-UI for a simple UI to use with this API
 
 Basic functionality includes:
 - basic chat functionality
